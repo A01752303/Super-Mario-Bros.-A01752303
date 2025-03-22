@@ -1,5 +1,11 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Menu/menu.uss?fileID=7433441132597879392&amp;guid=80d6dfdff815fd64ba84e8fb95d68d3d&amp;type=3#menu" />
     <engine:VisualElement name="root" style="flex-grow: 1;">
-        <engine:VisualElement name="menu" style="flex-grow: 1;" />
+        <engine:VisualElement name="menu" class="menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.31); max-width: 1289px; max-height: 719px; align-items: center; justify-content: center; align-self: center; width: 1289px; border-top-left-radius: 38px; border-top-right-radius: 38px; border-bottom-right-radius: 38px; border-bottom-left-radius: 38px; align-content: center; margin-top: 213px; margin-right: 67px; margin-bottom: 71px; margin-left: 73px;">
+            <engine:Button text="Jugar" name="start" class="boton" />
+            <engine:Button text="Ayuda" name="ayuda" class="boton" />
+            <engine:Button text="Créditos" name="creditos" class="boton" />
+        </engine:VisualElement>
     </engine:VisualElement>
+    <engine:Button text="X" name="salir" class="botonExit" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 14px; border-top-right-radius: 14px; border-bottom-right-radius: 14px; border-bottom-left-radius: 14px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;" />
 </engine:UXML>
