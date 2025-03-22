@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Menu/ayuda.uss?fileID=7433441132597879392&amp;guid=8368885ad41189d41913a53f50b7615a&amp;type=3#ayuda" />
+    <engine:VisualElement name="ayuda" class="ayuda" style="flex-grow: 1; margin-top: 244px; margin-right: 70px; margin-bottom: 158px; margin-left: 70px; width: 1291px; height: auto; max-height: 689px;">
+        <engine:Button text="X&#10;" name="salir" class="boton" />
+        <engine:Label text="Lorem Ipsum" name="title" class="ayudaTitle" style="margin-top: 19px; margin-right: 248px; margin-bottom: 67px; margin-left: 248px;" />
+        <engine:Label text="Lorem ipsum dolor sit amet, consectetur &#10;adipiscing elit. Etiam massa nisi, accumsan &#10;non feugiat vel, accumsan non neque. Aliquam &#10;rutrum ipsum quis consectetur finibus. Donec &#10;nec faucibus lectus. Duis sit amet nisl nec lorem &#10;pellentesque pharetra sed id augue. " name="paragraph" class="ayudaTitle" />
+    </engine:VisualElement>
+</engine:UXML>

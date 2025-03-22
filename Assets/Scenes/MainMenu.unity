@@ -516,6 +516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641642288}
   - component: {fileID: 641642287}
+  - component: {fileID: 641642289}
   m_Layer: 5
   m_Name: UIMenu
   m_TagString: Untagged
@@ -537,7 +538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: a051921d31a3bcb4e811981f35e1b4a3, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 315fd9d52bee67446ad709619ef5b006, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 1eb4399e801d2c645aaf341765cdb2bc, type: 3}
   m_SortingOrder: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
@@ -557,6 +558,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &641642289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641642286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b1d9ace61333f04b9502ed7cc0cb63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &829483452
 GameObject:
   m_ObjectHideFlags: 0
