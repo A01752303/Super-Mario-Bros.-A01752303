@@ -28,7 +28,7 @@
     color: rgb(255, 255, 255);
 }
 
-.boton {
+.salir {
     align-self: flex-end;
     margin-top: 11px;
     margin-right: 34px;

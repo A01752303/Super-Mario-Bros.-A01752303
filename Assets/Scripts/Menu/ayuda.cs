@@ -1,16 +1,33 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.UIElements;
 using System;
 
 public class Ayuda
 {
-    public Action BackAction { set => _backButton.clicked += value;}
+    public Action Salida
+    {
+        set
+        {
+            if (_salida != null)
+            {
+                _salida.clicked += value;
+            }
+            else
+            {
+                Debug.LogError("El botón 'salida' no está asignado.");
+            }
+        }
+    }
 
-    private Button _backButton;
+    private Button _salida;
 
     public Ayuda(VisualElement root)
     {
-        _backButton = root.Q<Button>("salir");
+        _salida = root.Q<Button>("salida");
+
+        if (_salida == null)
+        {
+            Debug.LogError("No se pudo encontrar el botón 'salida' en el VisualElement.");
+        }
     }
 }

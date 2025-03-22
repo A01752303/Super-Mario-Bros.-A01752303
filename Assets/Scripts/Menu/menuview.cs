@@ -8,9 +8,10 @@ public class Menuview
     public Action OpenAyuda { set => _ayuda.clicked += value; }
     public Action EmpezarJuego { set => _start.clicked += value; }
     public Action Salir { set => _salir.clicked += value; }
+    public Action Creditos { set => _creditos.clicked += value; }
 
-    private Button _ayuda;
     private Button _start;
+    private Button _ayuda;
     private Button _creditos;
     private Button _salir;
 
