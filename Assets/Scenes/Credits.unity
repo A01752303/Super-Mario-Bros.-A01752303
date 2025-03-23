@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 249453042}
   - component: {fileID: 249453041}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 658537919}
   - component: {fileID: 658537918}
   m_Layer: 5
-  m_Name: Image
+  m_Name: background_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,6 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875934167}
   - component: {fileID: 875934166}
+  - component: {fileID: 875934168}
   m_Layer: 5
   m_Name: regresar
   m_TagString: Untagged
@@ -440,7 +441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: a051921d31a3bcb4e811981f35e1b4a3, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: f1a81f54e4d571f44a80b8ca9fccb717, type: 3}
   m_SortingOrder: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
@@ -460,6 +461,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &875934168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875934165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d04807560df6f4d9a90dbc7454fcb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1458379272
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +486,7 @@ GameObject:
   - component: {fileID: 1458379275}
   - component: {fileID: 1458379274}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: creditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,7 +789,7 @@ GameObject:
   - component: {fileID: 1966841050}
   - component: {fileID: 1966841049}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: creditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -880,7 +893,7 @@ GameObject:
   - component: {fileID: 2132377940}
   - component: {fileID: 2132377939}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: background_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -948,6 +961,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1571504294}
-  - {fileID: 57978495}
   - {fileID: 1966841052}
   - {fileID: 875934167}
+  - {fileID: 57978495}
